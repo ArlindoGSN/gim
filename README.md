@@ -1,62 +1,15 @@
-# GIM - Sistema de Gerenciamento de Academia
+IM - Sistema de Gerenciamento de Academia
+Executando com Docker Compose
+Configurar variáveis de ambiente:
 
-API RESTful construída com FastAPI para gerenciamento de academia.
+Iniciar os containers:
 
-## Estrutura do Projeto
+Inicializar o banco de dados:
 
-```
-gim
-├── src
-│   ├── app.py
-│   ├── database
-│   │   ├── connection.py
-│   │   └── queries.py
-│   ├── controllers
-│   │   └── routes.py
-│   └── utils
-│       └── helpers.py
-├── tests
-│   └── test_app.py
-├── requirements.txt
-└── README.md
-```
+Iniciar a aplicação:
 
-## Tecnologias Utilizadas
+Acessar a documentação:
 
-- FastAPI
-- Pydantic
-- PostgreSQL
-- Uvicorn
-
-## Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd gim
-   ```
-3. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Uso
-
-Para iniciar a aplicação, execute o seguinte comando:
-```
-python src/app.py
-```
-
-## Testes
-
-Para executar os testes, utilize:
-```
-python -m unittest discover -s tests
-``` 
-
-## Contribuição
-
-Sinta-se à vontade para contribuir com melhorias ou correções.
+Swagger UI: http://localhost:8000/docs
+ReDoc: http://localhost:8000/redoc
+Comandos úteis:
